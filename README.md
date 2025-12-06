@@ -1,57 +1,28 @@
-Student Management System
+🎓 Student Management System
 
-A simple Python Tkinter + PostgreSQL desktop application that allows users to:
+A simple and user-friendly Student Management System built using Python, Tkinter, and PostgreSQL.
+This project allows users to manage student records easily through a clean graphical interface.
+------------------------------------------------------------------------------------------------
+🚀 Features
+📝 Student Data Management
 
-Add Student
+Add new students
+View all student records in a table
+Update selected student details
+Delete selected student
+Auto-refresh table after every action
+----------------------------------------------------------------------------------
+🛢️ Database Operations
 
-View All Students
+PostgreSQL database integration
+Automatically create table if it does not exist
+Secure SQL queries using parameters
+Reusable database query function
+---------------------------------------------------------------------------------------------
+🎨 UI / UX
 
-Update Student
-
-Delete Student
-
-Manage data using a PostgreSQL database
-
-Project Overview
-
-This project uses:
-
-Tkinter – for creating the GUI
-
-ttk.Treeview – for displaying student data in a table
-
-PostgreSQL – backend database
-
-psycopg2 – Python connector for PostgreSQL
-
-Features
-
-Insert Student Data
-
-View All Students
-
-Update Selected Student
-
-Delete Selected Student
-
-Create Table (if it does not already exist)
-
-Database Schema
-students (
-    student_id SERIAL PRIMARY KEY,
-    name VARCHAR(100),
-    address VARCHAR(255),
-    age INT,
-    number VARCHAR(15)
-)
-
-
-
-
-
-
-
-
-✔ Create Table
-
-Automatically creates the database table if it doesn't exist.
+Simple Tkinter-based GUI
+Table view using ttk.Treeview
+Buttons for CRUD operations
+Clean and beginner-friendly layout
+Works smoothly on Windows
